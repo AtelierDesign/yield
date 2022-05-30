@@ -1,6 +1,6 @@
 {
   "name": "@atelier.design/yield",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
