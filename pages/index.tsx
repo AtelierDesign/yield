@@ -51,7 +51,13 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from '../components/Tabs';
 import { Label } from '../components/Label';
 import { Skeleton } from '../components/Skeleton';
 import { RadioCardGroup, RadioCard } from '../components/RadioCard';
-import { Accordion, AccordionTrigger, AccordionItem, AccordionContent } from '../components/Accordion';
+import {
+  Accordion,
+  AccordionContainer,
+  AccordionTrigger,
+  AccordionItem,
+  AccordionContent,
+} from '../components/Accordion';
 import { Heading } from '../components/Heading';
 import { Paragraph } from '../components/Paragraph';
 // import { Color } from '../custom/Color';
@@ -423,7 +429,10 @@ function Home() {
       <Box css={{ bc: '$loContrast', height: '100%' }}>
         <Section size="3">
           <Container size="2">
-            <Heading size="4" css={{ ta: 'center', mb: '$3' }}>
+            <Heading
+              size="2"
+              css={{ ta: 'center', mb: '$3', fontFamily: '$ldGrotesk', textTransform: 'uppercase', fontWeight: 'bold' }}
+            >
               Atelier® UI Test Suite
             </Heading>
             <Paragraph size="2" css={{ ta: 'center' }}>
@@ -606,6 +615,8 @@ function Home() {
         <Flex css={{ jc: 'center' }}>
           <Separator size="2" />
         </Flex>
+
+        {/* <!-- TEXT --> */}
         <Section size="3">
           <Container size="2">
             <Heading id="text" css={{ mb: '$6', scrollMarginTop: '$7' }}>
@@ -967,6 +978,8 @@ function Home() {
         <Flex css={{ jc: 'center' }}>
           <Separator size="2" />
         </Flex>
+
+        {/* <!-- SKELETON --> */}
         <Section size="3">
           <Container size="2">
             <Heading id="skeleton" css={{ mb: '$6', scrollMarginTop: '$7' }}>
@@ -1025,6 +1038,8 @@ function Home() {
         <Flex css={{ jc: 'center' }}>
           <Separator size="2" />
         </Flex>
+
+        {/* <!-- BADGE --> */}
         <Section size="3">
           <Container size="2">
             <Heading id="badge" css={{ mb: '$6', scrollMarginTop: '$7' }}>
@@ -1155,6 +1170,8 @@ function Home() {
         <Flex css={{ jc: 'center' }}>
           <Separator size="2" />
         </Flex>
+
+        {/* <!-- STATUS --> */}
         <Section size="3">
           <Container size="2">
             <Heading id="status" css={{ mb: '$6', scrollMarginTop: '$7' }}>
@@ -1181,6 +1198,8 @@ function Home() {
         <Flex css={{ jc: 'center' }}>
           <Separator size="2" />
         </Flex>
+
+        {/* <!-- ALERT --> */}
         <Section size="3">
           <Container size="2">
             <Heading id="alert" css={{ mb: '$6', scrollMarginTop: '$7' }}>
@@ -1240,6 +1259,7 @@ function Home() {
           <Separator size="2" />
         </Flex>
 
+        {/* <!-- BUTTON --> */}
         <Section size="3">
           <Container size="2">
             <Heading id="button" css={{ mb: '$6', scrollMarginTop: '$7' }}>
@@ -1274,7 +1294,7 @@ function Home() {
                 mt: '$6',
               }}
             >
-              <Image src="https://images.unsplash.com/photo-1447690709975-318628b14c57?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2550&q=80" />
+              <Image src="https://unsplash.com/photos/RKpXxcZTszI" />
               <Box
                 css={{
                   position: 'absolute',
@@ -1292,7 +1312,7 @@ function Home() {
                 mt: '$6',
               }}
             >
-              <Image src="https://images.unsplash.com/photo-1453235421161-e41b42ebba05?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2550&q=80" />
+              <Image src="https://unsplash.com/photos/RKpXxcZTszI" />
               <Box
                 css={{
                   position: 'absolute',
@@ -1870,10 +1890,8 @@ function Home() {
                   <Button>Popover</Button>
                 </PopoverTrigger>
                 <PopoverContent css={{ padding: '$3' }}>
-                  <Text size="2" css={{ lineHeight: '18px' }}>
-                    The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
-                    on small devices and when zoomed in.
-                  </Text>
+                  The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow on
+                  small devices and when zoomed in.
                 </PopoverContent>
               </Popover>
               <Popover>
@@ -1881,10 +1899,8 @@ function Home() {
                   <Button>Hide arrow</Button>
                 </PopoverTrigger>
                 <PopoverContent css={{ padding: '$3' }} hideArrow>
-                  <Text size="2" css={{ lineHeight: '18px' }}>
-                    The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
-                    on small devices and when zoomed in.
-                  </Text>
+                  The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow on
+                  small devices and when zoomed in.
                 </PopoverContent>
               </Popover>
               <Popover>
@@ -1892,10 +1908,8 @@ function Home() {
                   <Button variant="blue">Blue</Button>
                 </PopoverTrigger>
                 <PopoverContent css={{ padding: '$3' }}>
-                  <Text size="2" css={{ lineHeight: '18px' }}>
-                    The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
-                    on small devices and when zoomed in.
-                  </Text>
+                  The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow on
+                  small devices and when zoomed in.
                 </PopoverContent>
               </Popover>
               <Popover>
@@ -1903,10 +1917,8 @@ function Home() {
                   <Button variant="green">Green</Button>
                 </PopoverTrigger>
                 <PopoverContent css={{ padding: '$3' }}>
-                  <Text size="2" css={{ lineHeight: '18px' }}>
-                    The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
-                    on small devices and when zoomed in.
-                  </Text>
+                  The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow on
+                  small devices and when zoomed in.
                 </PopoverContent>
               </Popover>
               <Popover>
@@ -1914,10 +1926,8 @@ function Home() {
                   <Button variant="red">Red</Button>
                 </PopoverTrigger>
                 <PopoverContent css={{ padding: '$3' }}>
-                  <Text size="2" css={{ lineHeight: '18px' }}>
-                    The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
-                    on small devices and when zoomed in.
-                  </Text>
+                  The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow on
+                  small devices and when zoomed in.
                 </PopoverContent>
               </Popover>
               <Popover>
@@ -1925,10 +1935,8 @@ function Home() {
                   <Button ghost>Ghost</Button>
                 </PopoverTrigger>
                 <PopoverContent css={{ padding: '$3' }}>
-                  <Text size="2" css={{ lineHeight: '18px' }}>
-                    The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
-                    on small devices and when zoomed in.
-                  </Text>
+                  The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow on
+                  small devices and when zoomed in.
                 </PopoverContent>
               </Popover>
               <Popover>
@@ -1938,10 +1946,8 @@ function Home() {
                   </IconButton>
                 </PopoverTrigger>
                 <PopoverContent css={{ padding: '$3' }}>
-                  <Text size="2" css={{ lineHeight: '18px' }}>
-                    The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
-                    on small devices and when zoomed in.
-                  </Text>
+                  The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow on
+                  small devices and when zoomed in.
                 </PopoverContent>
               </Popover>
               <Popover>
@@ -1954,10 +1960,8 @@ function Home() {
                   </Badge>
                 </PopoverTrigger>
                 <PopoverContent css={{ padding: '$3' }}>
-                  <Text size="2" css={{ lineHeight: '18px' }}>
-                    The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
-                    on small devices and when zoomed in.
-                  </Text>
+                  The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow on
+                  small devices and when zoomed in.
                 </PopoverContent>
               </Popover>
             </Flex>
@@ -1971,68 +1975,48 @@ function Home() {
             <Heading id="accordion" css={{ mb: '$6', scrollMarginTop: '$7' }}>
               Accordion
             </Heading>
-            <Accordion type="single">
-              <AccordionItem value="accordion-one">
-                <AccordionTrigger>
-                  <Text size="3" css={{ fontWeight: 500 }}>
-                    Accordion one
-                  </Text>
-                </AccordionTrigger>
-                <AccordionContent>
-                  <Text size="3" css={{ lineHeight: '23px' }}>
+
+            {/* <!-- ACCORDION COMPONENT --> */}
+            <AccordionContainer>
+              <Accordion type="single">
+                <AccordionItem value="accordion-one">
+                  <AccordionTrigger>Accordion one</AccordionTrigger>
+                  <AccordionContent>
                     The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
                     on small devices and when zoomed in, tables are a pain to navigate. I added a focus wrapper that
                     will announce the table context to the user when focused, which also allows keyboard users to
                     navigate the overflow more easily.
-                  </Text>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="accordion-two">
-                <AccordionTrigger>
-                  <Text size="3" css={{ fontWeight: 500 }}>
-                    Accordion two
-                  </Text>
-                </AccordionTrigger>
-                <AccordionContent>
-                  <Text size="3" css={{ lineHeight: '23px' }}>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="accordion-two">
+                  <AccordionTrigger>Accordion two</AccordionTrigger>
+                  <AccordionContent>
                     The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
                     on small devices and when zoomed in, tables are a pain to navigate. I added a focus wrapper that
                     will announce the table context to the user when focused, which also allows keyboard users to
                     navigate the overflow more easily.
-                  </Text>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="accordion-three">
-                <AccordionTrigger>
-                  <Text size="3" css={{ fontWeight: 500 }}>
-                    Accordion one
-                  </Text>
-                </AccordionTrigger>
-                <AccordionContent>
-                  <Text size="3" css={{ lineHeight: '23px' }}>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="accordion-three">
+                  <AccordionTrigger>Accordion one</AccordionTrigger>
+                  <AccordionContent>
                     The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
                     on small devices and when zoomed in, tables are a pain to navigate. I added a focus wrapper that
                     will announce the table context to the user when focused, which also allows keyboard users to
                     navigate the overflow more easily.
-                  </Text>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="accordion-four">
-                <AccordionTrigger>
-                  <Text size="3" css={{ fontWeight: 500 }}>
-                    Accordion two
-                  </Text>
-                </AccordionTrigger>
-                <AccordionContent>
-                  <Text size="3" css={{ lineHeight: '23px' }}>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="accordion-four">
+                  <AccordionTrigger>Accordion two</AccordionTrigger>
+                  <AccordionContent>
                     The other main improvement is with tables, which we'll probably use a lot. With horizontal overflow
                     on small devices and when zoomed in, tables are a pain to navigate. I added a focus wrapper that
                     will announce the table context to the user when focused, which also allows keyboard users to
                     navigate the overflow more easily.
-                  </Text>
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </AccordionContainer>
           </Container>
         </Section>
         <Flex css={{ jc: 'center' }}>

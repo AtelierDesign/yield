@@ -195,6 +195,8 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
     fonts: {
       untitled: 'Untitled Sans, -apple-system, system-ui, sans-serif',
       mono: 'Söhne Mono, menlo, monospace',
+      ldGrotesk: 'LD Grotesk Wide, -apple-system, system-ui, sans-serif',
+      uncut: 'Uncut Sans, -apple-system, system-ui, sans-serif',
     },
     space: {
       1: '5px',

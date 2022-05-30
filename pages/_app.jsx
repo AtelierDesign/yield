@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import '../styles.css';
+import '../globals/fonts.css';
 import { DesignSystemProvider } from '../components/DesignSystemProvider';
 
 function App({ Component, pageProps }) {

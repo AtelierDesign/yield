@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-MediumWideOblique.eot');
+  src: local('LD Grotesk Medium Wide Oblique'), local('LDGrotesk-MediumWideOblique'),
+    url('/fonts/LDGrotesk/LDGrotesk-MediumWideOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-MediumWideOblique.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-MediumWideOblique.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-MediumWideOblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-LightWide.eot');
+  src: local('LD Grotesk Light Wide'), local('LDGrotesk-LightWide'),
+    url('/fonts/LDGrotesk/LDGrotesk-LightWide.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-LightWide.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-LightWide.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-LightWide.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-LightWideOblique.eot');
+  src: local('LD Grotesk Light Wide Oblique'), local('LDGrotesk-LightWideOblique'),
+    url('/fonts/LDGrotesk/LDGrotesk-LightWideOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-LightWideOblique.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-LightWideOblique.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-LightWideOblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-HeavyWide.eot');
+  src: local('LD Grotesk Heavy Wide'), local('LDGrotesk-HeavyWide'),
+    url('/fonts/LDGrotesk/LDGrotesk-HeavyWide.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-HeavyWide.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-HeavyWide.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-HeavyWide.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-MediumWide.eot');
+  src: local('LD Grotesk Medium Wide'), local('LDGrotesk-MediumWide'),
+    url('/fonts/LDGrotesk/LDGrotesk-MediumWide.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-MediumWide.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-MediumWide.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-MediumWide.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide Ultra';
+  src: url('/fonts/LDGrotesk/LDGrotesk-UltraLightWide.eot');
+  src: local('LD Grotesk Ultra Light Wide'), local('LDGrotesk-UltraLightWide'),
+    url('/fonts/LDGrotesk/LDGrotesk-UltraLightWide.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-UltraLightWide.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-UltraLightWide.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-UltraLightWide.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-Wide.eot');
+  src: local('LD Grotesk Wide'), local('LDGrotesk-Wide'),
+    url('/fonts/LDGrotesk/LDGrotesk-Wide.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-Wide.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-Wide.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-Wide.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide Ultra';
+  src: url('/fonts/LDGrotesk/LDGrotesk-UltraLightWideOblique.eot');
+  src: local('LD Grotesk Ultra Light Wide Oblique'), local('LDGrotesk-UltraLightWideOblique'),
+    url('/fonts/LDGrotesk/LDGrotesk-UltraLightWideOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-UltraLightWideOblique.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-UltraLightWideOblique.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-UltraLightWideOblique.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-WideOblique.eot');
+  src: local('LD Grotesk Wide Oblique'), local('LDGrotesk-WideOblique'),
+    url('/fonts/LDGrotesk/LDGrotesk-WideOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-WideOblique.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-WideOblique.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-WideOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-BoldWide.eot');
+  src: local('LD Grotesk Bold Wide'), local('LDGrotesk-BoldWide'),
+    url('/fonts/LDGrotesk/LDGrotesk-BoldWide.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-BoldWide.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-BoldWide.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-BoldWide.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-HeavyWideOblique.eot');
+  src: local('LD Grotesk Heavy Wide Oblique'), local('LDGrotesk-HeavyWideOblique'),
+    url('/fonts/LDGrotesk/LDGrotesk-HeavyWideOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-HeavyWideOblique.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-HeavyWideOblique.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-HeavyWideOblique.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LD Grotesk Wide';
+  src: url('/fonts/LDGrotesk/LDGrotesk-BoldWideOblique.eot');
+  src: local('LD Grotesk Bold Wide Oblique'), local('LDGrotesk-BoldWideOblique'),
+    url('/fonts/LDGrotesk/LDGrotesk-BoldWideOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LDGrotesk/LDGrotesk-BoldWideOblique.woff2') format('woff2'),
+    url('/fonts/LDGrotesk/LDGrotesk-BoldWideOblique.woff') format('woff'),
+    url('/fonts/LDGrotesk/LDGrotesk-BoldWideOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*
+* UNCUT SANS
+*/
+
+@font-face {
+  font-family: 'Uncut Sans';
+  src: url('/fonts/UncutSans/Uncut-Sans-MediumOblique.eot');
+  src: local('Uncut Sans Medium Oblique'), local('Uncut-Sans-MediumOblique'),
+    url('/fonts/UncutSans/Uncut-Sans-MediumOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/UncutSans/Uncut-Sans-MediumOblique.woff2') format('woff2'),
+    url('/fonts/UncutSans/Uncut-Sans-MediumOblique.woff') format('woff'),
+    url('/fonts/UncutSans/Uncut-Sans-MediumOblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uncut Sans';
+  src: url('/fonts/UncutSans/Uncut-Sans-SemiboldOblique.eot');
+  src: local('Uncut Sans Semibold Oblique'), local('Uncut-Sans-SemiboldOblique'),
+    url('/fonts/UncutSans/Uncut-Sans-SemiboldOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/UncutSans/Uncut-Sans-SemiboldOblique.woff2') format('woff2'),
+    url('/fonts/UncutSans/Uncut-Sans-SemiboldOblique.woff') format('woff'),
+    url('/fonts/UncutSans/Uncut-Sans-SemiboldOblique.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uncut Sans';
+  src: url('/UncutSans/Uncut-Sans-Semibold.eot');
+  src: local('Uncut Sans Semibold'), local('Uncut-Sans-Semibold'),
+    url('/UncutSans/Uncut-Sans-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/UncutSans/Uncut-Sans-Semibold.woff2') format('woff2'),
+    url('/fonts/UncutSansUncut-Sans-Semibold.woff') format('woff'),
+    url('/fonts/UncutSans/Uncut-Sans-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uncut Sans';
+  src: url('/fonts/UncutSans/Uncut-Sans-RegularOblique.eot');
+  src: local('Uncut Sans Regular Oblique'), local('Uncut-Sans-RegularOblique'),
+    url('/fonts/UncutSans/Uncut-Sans-RegularOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/UncutSans/Uncut-Sans-RegularOblique.woff2') format('woff2'),
+    url('/fonts/UncutSans/Uncut-Sans-RegularOblique.woff') format('woff'),
+    url('/fonts/UncutSans/Uncut-Sans-RegularOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uncut Sans';
+  src: url('/fonts/UncutSans/Uncut-Sans-Bold.eot');
+  src: local('Uncut Sans Bold'), local('Uncut-Sans-Bold'),
+    url('/fonts/UncutSans/Uncut-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/UncutSans/Uncut-Sans-Bold.woff2') format('woff2'),
+    url('/fonts/UncutSans/Uncut-Sans-Bold.woff') format('woff'),
+    url('/fonts/UncutSans/Uncut-Sans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uncut Sans';
+  src: url('/fonts/UncutSans/Uncut-Sans-Medium.eot');
+  src: local('Uncut Sans Medium'), local('Uncut-Sans-Medium'),
+    url('/fonts/UncutSans/Uncut-Sans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/UncutSans/Uncut-Sans-Medium.woff2') format('woff2'),
+    url('/fonts/UncutSans/Uncut-Sans-Medium.woff') format('woff'),
+    url('/fonts/UncutSans/Uncut-Sans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uncut Sans';
+  src: url('/fonts/UncutSans/Uncut-Sans-Regular.eot');
+  src: local('Uncut Sans Regular'), local('Uncut-Sans-Regular'),
+    url('/fonts/UncutSans/Uncut-Sans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/UncutSans/Uncut-Sans-Regular.woff2') format('woff2'),
+    url('/fonts/UncutSans/Uncut-Sans-Regular.woff') format('woff'),
+    url('/fonts/UncutSans/Uncut-Sans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uncut Sans';
+  src: url('/fonts/UncutSans/Uncut-Sans-BoldOblique.eot');
+  src: local('Uncut Sans Bold Oblique'), local('Uncut-Sans-BoldOblique'),
+    url('/fonts/UncutSans/Uncut-Sans-BoldOblique.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/UncutSans/Uncut-Sans-BoldOblique.woff2') format('woff2'),
+    url('/fonts/UncutSans/Uncut-Sans-BoldOblique.woff') format('woff'),
+    url('/fonts/UncutSans/Uncut-Sans-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

@@ -54,7 +54,8 @@ const slideOut = keyframes({
 
 const StyledContent = styled(DialogPrimitive.Content, {
   backgroundColor: '$panel',
-  boxShadow: '$colors$shadowLight 0 0 38px -10px, $colors$shadowDark 0 0 35px -15px',
+  boxShadow: '$colors$shadowLight 0px 0px 10px -15px, $colors$shadowDark 0px 10px 20px -15px',
+  //  boxShadow: '$colors$shadowLight 0 0 38px -10px, $colors$shadowDark 0 0 35px -15px',
   position: 'fixed',
   top: 0,
   bottom: 0,
@@ -81,7 +82,7 @@ const StyledContent = styled(DialogPrimitive.Content, {
       top: {
         $$transformValue: 'translate3d(0,-100%,0)',
         width: '100%',
-        height: 300,
+        height: '70%',
         bottom: 'auto',
       },
       right: {
@@ -109,27 +110,26 @@ const StyledContent = styled(DialogPrimitive.Content, {
 
 const StyledCloseButton = styled(DialogPrimitive.Close, {
   position: 'absolute',
-  top: '$2',
-  right: '$2',
+  top: '$3',
+  right: '$3',
 });
 
 type SheetContentVariants = VariantProps<typeof StyledContent>;
 type DialogContentPrimitiveProps = React.ComponentProps<typeof DialogPrimitive.Content>;
 type SheetContentProps = DialogContentPrimitiveProps & SheetContentVariants & { css?: CSS };
 
-export const SheetContent = React.forwardRef<
-  React.ElementRef<typeof StyledContent>,
-  SheetContentProps
->(({ children, ...props }, forwardedRef) => (
-  <StyledContent {...props} ref={forwardedRef}>
-    {children}
-    <StyledCloseButton asChild>
-      <IconButton variant="ghost">
-        <Cross1Icon />
-      </IconButton>
-    </StyledCloseButton>
-  </StyledContent>
-));
+export const SheetContent = React.forwardRef<React.ElementRef<typeof StyledContent>, SheetContentProps>(
+  ({ children, ...props }, forwardedRef) => (
+    <StyledContent {...props} ref={forwardedRef}>
+      {children}
+      <StyledCloseButton asChild>
+        <IconButton variant="ghost">
+          <Cross1Icon />
+        </IconButton>
+      </StyledCloseButton>
+    </StyledContent>
+  ),
+);
 
 export const SheetTrigger = DialogPrimitive.Trigger;
 export const SheetClose = DialogPrimitive.Close;
