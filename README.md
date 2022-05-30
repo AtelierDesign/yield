@@ -1,4 +1,4 @@
-### @atelier.design/yield
+## @atelier.design/yield
 
 DS for [Atelier Design Yield®](https://developer.ady.world).
 
